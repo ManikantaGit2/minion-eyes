@@ -1,0 +1,36 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffde00; /* Minion yellow */
+    margin: 0;
+}
+
+.minion {
+    display: flex;
+    gap: 20px;
+}
+
+.eye {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    position: relative;
+}
+
+.pupil {
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.05s linear;
+}
